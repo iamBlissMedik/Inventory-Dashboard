@@ -1,9 +1,5 @@
-import Image from "next/image";
+import Dashboard from "./dashboard/page";
 
 export default function Home() {
-  return (
-    <main className="flex flex-col items-center justify-between p-24 min-h-screen">
-      hello
-   </main>
-  );
+  return <Dashboard />;
 }
